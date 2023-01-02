@@ -29,6 +29,7 @@ function setup() {
 
 function draw() {
   strokeWeight(number);
+  stroke(colorChosen)
   fill(colorChosen)
   if (mouseIsPressed){
     line(prevX, prevY, mouseX, mouseY);
