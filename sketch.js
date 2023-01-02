@@ -19,7 +19,6 @@ document.getElementById('save').addEventListener('click', function() {
 
 function setup() {
   createCanvas(windowWidth - 50, windowHeight - 30);
-  noStroke()
   background('white');
   frameRate(600)
   fill('black')
