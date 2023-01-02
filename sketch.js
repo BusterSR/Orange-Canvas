@@ -1,4 +1,6 @@
 var number = 10
+var prevX = 10
+var prevY = 10
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
@@ -24,18 +26,10 @@ function setup() {
 }
 
 function draw() {
+  strokeWeight(number);
   if (mouseIsPressed){
-    circle(mouseX, mouseY, number)
+    line(prevX, prevY, 380, 20);
   }
-}
-
-
-function mousePressed(){
-  circle(mouseX, mouseY, number)
-}
-
-while (1 < 2){
-  if (mouseIsPressed){
-    circle(mouseX, mouseY, number)
-  }
+  prevX = mouseX
+  prevY = mouseY
 }
