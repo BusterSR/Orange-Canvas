@@ -11,6 +11,7 @@ document.getElementById('colors').addEventListener('change', function() {
     theColor = document.getElementById('colors').value;
   });
 document.getElementById('clear').addEventListener('click', function() {
+  background(255);
   clear()
   createCanvas(windowWidth - 50, windowHeight - 30);
   background(255, 254, 252);
