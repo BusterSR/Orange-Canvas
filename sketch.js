@@ -1,5 +1,5 @@
 var number = 10
-var theColor = document.getElementById('colors');
+const theColor = document.getElementById('colors');
 
 var prevX
 var prevY
