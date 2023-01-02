@@ -1,5 +1,5 @@
 var number = 10
-const theColor = document.getElementById('colors');
+var theColor = '255, 255, 255'
 
 var prevX
 var prevY
