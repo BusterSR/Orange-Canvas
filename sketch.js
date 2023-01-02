@@ -1,5 +1,5 @@
 var number = 10
-var colorChosen
+var colorChosen = '255, 255, 255'
 var prevX
 var prevY
 document.getElementById('numberInput').addEventListener('change', function() {
