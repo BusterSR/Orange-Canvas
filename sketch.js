@@ -7,7 +7,6 @@ document.getElementById('numberInput').addEventListener('change', function() {
 document.getElementById('clear').addEventListener('click', function() {
   clear()
   createCanvas(windowWidth - 50, windowHeight - 30);
-  noStroke()
   background('white');
   frameRate(600)
   fill('black')
