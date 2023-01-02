@@ -2,6 +2,9 @@ var number = 10
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
+document.getElementById('clear').addEventListener('change', function() {
+    clear();
+  });
 
 function setup() {
   createCanvas(windowWidth - 50, windowHeight - 30);
