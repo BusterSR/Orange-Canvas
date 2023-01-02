@@ -2,7 +2,6 @@ var number = 10
 var theColor = '255, 255, 255'
 var prevX
 var prevY
-let fillColor
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
@@ -26,7 +25,6 @@ function setup() {
   background(255, 254, 252);
   frameRate(600)
   fill(theColor)
-  fillColor = colorPicker();
 }
 
 function draw() {
