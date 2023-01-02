@@ -30,8 +30,8 @@ function setup() {
 
 function draw() {
   strokeWeight(number);
-  colorPicked = document.getElementById('colors');
-  fill(colorPicked)
+  theColor = document.getElementById('colors');
+  fill(theColor)
   if (mouseIsPressed){
     line(prevX, prevY, mouseX, mouseY);
   }
