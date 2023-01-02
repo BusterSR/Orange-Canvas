@@ -1,5 +1,6 @@
 var number = 10
-var theColor = '255, 255, 255'
+var theColor = document.getElementById('colors');
+
 var prevX
 var prevY
 var colorPicked = '255, 255, 255'
