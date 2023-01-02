@@ -27,7 +27,7 @@ function setup() {
 function draw() {
   strokeWeight(number);
   if (mouseIsPressed){
-    line(prevX, prevY, 380, 20);
+    line(prevX, prevY, mouseX, mouseY);
   }
   prevX = mouseX
   prevY = mouseY
