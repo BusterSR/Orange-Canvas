@@ -1,7 +1,9 @@
 var number = 10
 var theColor = '255, 255, 255'
+
 var prevX
 var prevY
+var colorPicked = '255, 255, 255'
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
@@ -9,7 +11,6 @@ document.getElementById('colors').addEventListener('change', function() {
     theColor = document.getElementById('colors').value;
   });
 document.getElementById('clear').addEventListener('click', function() {
-  clear()
   clear()
   createCanvas(windowWidth - 50, windowHeight - 30);
   background(255, 254, 252);
