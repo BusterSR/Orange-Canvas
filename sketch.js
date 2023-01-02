@@ -1,6 +1,6 @@
 var number = 10
-var prevX = 10
-var prevY = 10
+var prevX
+var prevY
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
