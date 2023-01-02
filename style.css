@@ -13,7 +13,7 @@ h1{
   font-size: 60px;
   font-family: Tahoma;
 }
-input, h3{
+input, h3, h4{
   color: rgb(250, 171, 35);
   display: block;
   margin: auto;
