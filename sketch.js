@@ -2,7 +2,7 @@ var number = 10
 var theColor = '255, 255, 255'
 var prevX
 var prevY
-var colorPicked
+var colorPicked = '255, 255, 255'
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
