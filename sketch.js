@@ -1,14 +1,9 @@
 var number = 10
-var theColor = '255, 255, 255'
 
 var prevX
 var prevY
-var colorPicked = '255, 255, 255'
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
-  });
-document.getElementById('colors').addEventListener('change', function() {
-    theColor = document.getElementById('colors').value;
   });
 document.getElementById('clear').addEventListener('click', function() {
   background(255);
@@ -16,7 +11,6 @@ document.getElementById('clear').addEventListener('click', function() {
   createCanvas(windowWidth - 50, windowHeight - 30);
   background(255, 254, 252);
   frameRate(600)
-  fill(theColor)
 });
 
 document.getElementById('save').addEventListener('click', function() {
@@ -27,12 +21,12 @@ function setup() {
   createCanvas(windowWidth - 50, windowHeight - 30);
   background(255, 254, 252);
   frameRate(600)
-  fill(theColor)
+  fill(255, 255, 255)
 }
 
 function draw() {
   strokeWeight(number);
-  fill(theColor)
+  fill(255, 255, 255)
   if (mouseIsPressed){
     line(prevX, prevY, mouseX, mouseY);
   }
