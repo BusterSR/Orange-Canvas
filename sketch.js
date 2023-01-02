@@ -1,5 +1,4 @@
 var number = 10
-var theColor = '255, 255, 255'
 
 var prevX
 var prevY
@@ -7,7 +6,7 @@ document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
 colorInput.addEventListener('theColor', (event) => {
-  const colorpicked = event.target.value;
+  const theColor = event.target.value;
 });
 document.getElementById('clear').addEventListener('click', function() {
   clear()
