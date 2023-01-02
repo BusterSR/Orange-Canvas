@@ -2,6 +2,7 @@ var number = 10
 var theColor = '255, 255, 255'
 var prevX
 var prevY
+var colorPicked
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
@@ -29,7 +30,8 @@ function setup() {
 
 function draw() {
   strokeWeight(number);
-  fill(theColor)
+  colorPicked = document.getElementById('colors');
+  fill(colorPicked)
   if (mouseIsPressed){
     line(prevX, prevY, mouseX, mouseY);
   }
