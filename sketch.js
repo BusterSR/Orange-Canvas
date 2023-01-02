@@ -3,13 +3,12 @@ var theColor = '255, 255, 255'
 
 var prevX
 var prevY
-var colorPicked = '255, 255, 255'
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
   });
-document.getElementById('colors').addEventListener('change', function() {
-    theColor = document.getElementById('colors').value;
-  });
+colorInput.addEventListener('theColor', (event) => {
+  const colorpicked = event.target.value;
+});
 document.getElementById('clear').addEventListener('click', function() {
   clear()
   createCanvas(windowWidth - 50, windowHeight - 30);
