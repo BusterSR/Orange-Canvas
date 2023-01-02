@@ -10,6 +10,7 @@ document.getElementById('colors').addEventListener('change', function() {
   });
 document.getElementById('clear').addEventListener('click', function() {
   clear()
+  clear()
   createCanvas(windowWidth - 50, windowHeight - 30);
   background(255, 254, 252);
   frameRate(600)
