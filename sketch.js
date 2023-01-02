@@ -11,6 +11,10 @@ document.getElementById('clear').addEventListener('click', function() {
   fill('black')
 });
 
+document.getElementById('save').addEventListener('click', function() {
+  saveCanvas(canvas, 'myOrange', 'png');
+});
+
 function setup() {
   createCanvas(windowWidth - 50, windowHeight - 30);
   noStroke()
