@@ -1,9 +1,12 @@
 var number = 10
-
+var colorChosen
 var prevX
 var prevY
 document.getElementById('numberInput').addEventListener('change', function() {
     number = document.getElementById('numberInput').value;
+  });
+document.getElementById('colorInput').addEventListener('change', function() {
+    colorChosen = document.getElementById('colorInput').value;
   });
 document.getElementById('clear').addEventListener('click', function() {
   background(255);
