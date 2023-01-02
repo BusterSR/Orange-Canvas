@@ -13,6 +13,7 @@ document.getElementById('clear').addEventListener('click', function() {
   createCanvas(windowWidth - 50, windowHeight - 30);
   background(255, 254, 252);
   frameRate(600)
+  theColor = '255, 255, 255'
   fill(theColor)
 });
 
