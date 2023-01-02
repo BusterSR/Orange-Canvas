@@ -7,7 +7,7 @@ document.getElementById('numberInput').addEventListener('change', function() {
 document.getElementById('clear').addEventListener('click', function() {
   clear()
   createCanvas(windowWidth - 50, windowHeight - 30);
-  background('white');
+  background(255, 254, 252);
   frameRate(600)
   fill('black')
 });
@@ -18,7 +18,7 @@ document.getElementById('save').addEventListener('click', function() {
 
 function setup() {
   createCanvas(windowWidth - 50, windowHeight - 30);
-  background('white');
+  background(255, 254, 252);
   frameRate(600)
   fill('black')
 }
