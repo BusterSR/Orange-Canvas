@@ -1,0 +1,25 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 211, 150);
+  }
+  canvas{
+    display: block;
+    margin: auto;
+  }
+h1{
+  color: rgb(250, 171, 35);
+  text-align: center;
+  font-size: 60px;
+  font-family: Tahoma;
+}
+input, h3{
+  color: rgb(250, 171, 35);
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+p {
+  text-align: center;
+  display: inline-block;
+}
